@@ -1,1 +1,7 @@
 npm install -y
+
+
+cd server
+npm init -y
+npm install express sequelize mysql2 cors body-parser
+node index.js
