@@ -3,7 +3,9 @@ docker run hello-world
 docker run friendica
 docker ps
 docker container ls
+docker stop <container_id>
 docker rm <container_id>
 docker logs <container_is>
+docker pause <container_id>
 docker unpause <container_id>
 docker images
