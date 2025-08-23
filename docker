@@ -1,0 +1,9 @@
+docker run nginx
+docker run hello-world
+docker run friendica
+docker ps
+docker container ls
+docker rm <container_id>
+docker logs <container_is>
+docker unpause <container_id>
+docker images
