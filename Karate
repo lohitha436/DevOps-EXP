@@ -5,3 +5,35 @@ mvn archetype:generate \
   -DgroupId=com.example \
   -DartifactId=karate-demo \
   -DinteractiveMode=false
+
+mvn test -Dtest=examples.users.UsersRunner
+
+You’ll see this structure:
+
+karate-demo
+
+ ├── pom.xml
+
+ ├── src
+
+ │   ├── test
+
+ │   │   ├── java
+
+ │   │   │   └── examples
+
+ │   │   │       └── users
+
+ │   │   │           ├── UsersRunner.java
+
+ │   │   └── resources
+
+ │   │       └── examples
+
+ │   │           └── users
+
+ │   │               └── users.feature
+
+
+
+
